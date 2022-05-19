@@ -1,0 +1,202 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.carousel-item img
+{
+    height: 650px;
+    width:100%;
+}
+
+.parent
+{
+    overflow: hidden;
+    margin: auto;
+    width:99%
+}
+.info hr
+{
+    width: 70%;
+    color: #DDD;
+}
+
+.image img
+{
+
+    width: 100%;
+    height: 300px;
+    /*padding-left: 20px;*/
+    margin-top: 30px;
+}
+
+.info p
+{
+    color: #666 ;
+    line-height: 23px ;
+    text-align: center;
+
+}
+.info h4 , .info h5
+{
+    text-align: center;
+
+    padding-top: 10px;
+}
+.info div div
+{
+
+    border: 1px solid #DDD ;
+    /*margin-right: 20px;*/
+    margin-top: 30px;
+}
+
+.info a
+{
+    /*margin-left: 35%;*/
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    background: none;
+    border: 1px solid black;
+}
+
+.Projects
+{
+    overflow: hidden;
+    padding-top: 30px;
+    /*padding-bottom: 30px ;*/
+    line-height: 23px ;
+    /*width: 600px;*/
+    /*margin: auto;*/
+}
+.Projects h2
+{
+    margin: 30px 0 20px 40px ;
+    text-align: center;
+}
+.Projects p
+{
+    width: 80%;
+    color: #666 ;
+    line-height: 23px ;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.portfolio
+{
+    overflow: hidden;
+    text-align: center ;
+    padding-top: 30px ;
+    padding-bottom:30px  ;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.portfolio img
+{
+    /*width: 95% ;*/
+    width: 100%;
+    height: 250px;
+    margin-top: 10px ;
+    /*padding: 3px ;*/
+    background-color: #FFF ;
+    border: 1px solid #CCC ;
+    box-shadow: 3px 3px 3px rgb(50, 56, 54);
+}
+
+.departments
+{
+    overflow: hidden;
+    padding-top: 30px ;
+    padding-bottom:30px  ;
+    margin: 20px auto ;
+    text-align: center;
+}
+.departments img
+{
+    width: 300px ;
+    height: 210px ;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 8px gray ,  -4px -4px 8px gray;
+    opacity: 0.7;
+}
+.departments h3
+{
+    color: rgb(54, 54, 27);
+    font-weight: 700;
+}
+.departments img:hover
+{
+    transition: all 0.7s ease-in-out;
+    opacity: 1;
+}
+
+.items
+{
+    overflow: hidden;
+    padding-top: 30px ;
+    padding-bottom:30px  ;
+    margin: 20px auto ;
+    text-align: center;
+}
+
+
+
+
+.footer
+{
+    overflow: hidden;
+    padding-bottom: 30px ;
+    padding-top: 30px ;
+    background-color: #191E22;
+    color: white ;
+    line-height: 23px ;
+    position: relative;
+    margin-top: 50px;
+}
+.footer .first
+{
+    float: left;
+    /*width: 50%;*/
+    margin-top: 40px;
+}
+.footer .end
+{
+    float: left;
+    /*width: 40%;*/
+    margin-left: 40px ;
+    margin-top: 30px ;
+}
+.footer .end p
+{
+    margin-top: 20px ;
+    color: rgb(90, 93, 97);
+}
+.footer ul
+{
+    list-style: none ;
+    float: left ;
+}
+.footer ul li
+{
+    padding-left : 20px ;
+    float: left ;
+    font-weight: 700;
+}
+.footer ul li i
+{
+    font-size: 25px ;
+    width: 20px ;
+    color: rgb(207, 67, 86) ;
+    margin-left: 10px ;
+    margin-right: 15px ;
+}
